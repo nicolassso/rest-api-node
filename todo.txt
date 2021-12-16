@@ -1,0 +1,27 @@
+***NEEDS TO BE DONE***
+--------------------------------------------------------------------
+
+
+DB:
+
+create database with columns (ID, NAME, COLLECTION, PRICE, 
+DESCRIPTION, IMAGE)
+
+
+--------------------------------------------------------------------
+
+
+SERVER-REST-API:
+
+connect to DB 
+
+***access db data (CRUD)***
+
+
+--------------------------------------------------------------------
+
+
+
+FRONT:
+
+***Show data from DB*** 

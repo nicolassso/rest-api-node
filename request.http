@@ -1,0 +1,32 @@
+###
+GET http://localhost:3000/api/cuadros HTTP/1.1
+
+
+###
+POST http://localhost:3000/api/cuadros HTTP/1.1
+Content-Type: application/json
+
+{
+    "name" : "explosión",
+    "collection": "abstracto",
+    "author": "José Marchá",
+    "price": "800",
+    "description": "Cuadro abstracto con impresión de explosión"
+}
+
+
+###
+DELETE http://localhost:3000/api/cuadros/4 HTTP/1.1
+
+
+###
+PUT http://localhost:3000/api/cuadros/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name" : "Mujeres árabes",
+    "collection": "Árabes",
+    "author": "José Marchá",
+    "price": "900",
+    "description": "Cuadro colorido con temática árabe"
+}
