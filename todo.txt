@@ -7,6 +7,8 @@ DB:
 create database with columns (ID, NAME, COLLECTION, PRICE, 
 DESCRIPTION, IMAGE)
 
+storing images as varchar(500), it is an URL from coludinary where I can store the images and just get an URL (i love you fazt)
+
 
 --------------------------------------------------------------------
 
@@ -15,7 +17,9 @@ SERVER-REST-API:
 
 connect to DB 
 
-***access db data (CRUD)***
+access db data (CRUD)
+
+***DYNAMIC CRUD ACCESING FROM FRONT***
 
 
 --------------------------------------------------------------------
@@ -24,4 +28,5 @@ connect to DB
 
 FRONT:
 
+Already receiving data form MySQL passing through API
 ***Show data from DB*** 
